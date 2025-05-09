@@ -5,7 +5,7 @@ https://github.com/cncf/landscape2
 
 Installed with brew:
 
-`brew install landscape2`
+`brew install cncf/landscape2/landscape2`
 
 ## Development
 
