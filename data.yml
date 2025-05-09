@@ -1,0 +1,386 @@
+# Landscape2 data
+#
+# This file contains the data that will be used to generate the landscape.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
+
+categories:
+  - name: Smart Home Platforms
+    subcategories:
+      - name: Open Source
+        items:
+          - name: Home Assistant
+            description:  Open source home automation that puts local control and privacy first.
+            homepage_url: https://www.home-assistant.io/
+            logo: home-assistant.svg
+            repo_url: https://github.com/home-assistant/core
+            additional_repos:
+              - repo_url: https://github.com/home-assistant/frontend
+              - repo_url: https://github.com/home-assistant/operating-system
+              - repo_url: https://github.com/home-assistant/iOS
+              - repo_url: https://github.com/home-assistant/android
+              - repo_url: https://github.com/esphome/esphome
+            twitter: https://x.com/home_assistant
+            extra:
+              tag:
+                - home-assistant
+            second_path:
+              - "Open Home Foundation Projects / Members"
+          - name: Nabu Casa
+            crunchbase: https://www.crunchbase.com/organization/nabu-casa
+            description:  Open source home automation that puts local control and privacy first.
+            homepage_url: https://www.nabucasa.com/
+            logo: nabucasa.svg
+            extra:
+              tag:
+                - home-assistant
+
+          - name: OpenHAB
+            description: empowering the smart home a vendor and technology agnostic open source automation software for your home
+            homepage_url: https://www.openhab.org/
+            logo: OpenHAB_logo_2.svg
+            repo_url: https://github.com/openhab/openhab-core
+            additional_repos:
+              - repo_url: https://github.com/openhab/openhab-core
+              - repo_url: https://github.com/openhab/openhab-android
+              - repo_url: https://github.com/openhab/openhab-ios
+              - repo_url: https://github.com/openhab/openhabian
+              - repo_url: https://github.com/openhab/openhab-addons
+            twitter: https://twitter.com/CloudNativeFdn
+
+          - name: FHEM
+            description: FHEM (TM) is a GPL'd perl server for house automation. It is used to automate some common tasks in the household like switching lamps / shutters / heating / etc. and to log events like temperature / humidity / power consumption.
+            homepage_url: https://fhem.de/
+            logo: Fhem_logo.svg
+            repo_url: https://github.com/fhem/fhem-mirror
+            branch: master
+            additional_repos:
+              - repo_url: https://github.com/fhem/fhem-docker
+
+          - name: iOBroker
+            description: |
+              ioBroker is a cutting-edge platform for home automation that empowers you to take control of your smart home devices and systems. With ioBroker, you can easily integrate and manage a wide range of devices and technologies, including lighting, heating, security systems, and more, all from a central interface. The platform is open-source, highly customizable, and scalable, allowing you to adapt it to your specific needs and grow with your changing requirements.
+            homepage_url: https://www.iobroker.net/
+            logo: IoBrokerLogo.svg
+            repo_url: https://github.com/ioBroker/ioBroker
+            branch: master
+            additional_repos:
+              - repo_url: https://github.com/ioBroker/ioBroker.zigbee
+                branch: master
+
+          - name: Domoticz
+            description: |
+              Domoticz is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device
+            homepage_url: https://www.domoticz.com/
+            logo: Domoticz.png
+            repo_url: https://github.com/domoticz/domoticz
+            branch: master
+            additional_repos:
+              - repo_url: https://github.com/domoticz/domoticz-docker
+              - repo_url: https://github.com/domoticz/domoticz-android
+                branch: master
+
+          - name: Homebridge
+            description: |
+              Bringing HomeKit support where there is none
+              Homebridge allows you to integrate with smart home devices that do not natively support HomeKit. There are over 2,000 Homebridge plugins supporting thousands of different smart accessories.
+            homepage_url: https://homebridge.io/
+            logo: homebridge-color-square.svg
+            repo_url: https://github.com/homebridge/homebridge
+            branch: latest
+            additional_repos:
+              - repo_url: https://github.com/homebridge/homebridge-config-ui-x
+                branch: latest
+              - repo_url: https://github.com/homebridge/docker-homebridge
+                branch: latest
+
+      - name: Proprietary
+        items:
+          - name: Apple HomeKit
+            crunchbase: https://www.crunchbase.com/organization/apple
+            description: |
+              The Home app makes it easier to control all your smart home accessories1 — on all your Apple devices. It’s secure and protects your personal data. And with HomePod, HomePod mini, or Apple TV set up as the ultimate home hub, the Home app unlocks the full potential of your smart home.
+            homepage_url: https://www.apple.com/home-app/
+            logo: Apple_HomeKit_logo.svg
+
+          - name: SmartThings
+            crunchbase: https://www.crunchbase.com/organization/samsung-electronics
+            description: |
+               new way to enjoy your home. With SmartThings, you can create an AI-powered home that makes life more comfortable for you and looks after your loved ones.
+            homepage_url: https://www.samsung.com/us/smartthings/
+            logo: smartthings.jpeg
+
+          - name: Loxone
+            crunchbase: https://www.crunchbase.com/organization/loxone
+            description: German Smart Home System
+            homepage_url: https://www.loxone.com/
+            logo: Logo-Loxone-green-Web.png
+            
+          - name: Google Home
+            description: |
+              Google Home is a smart home ecosystem that uses voice commands to control various smart devices and manage different aspects of daily life
+            homepage_url: https://home.google.com
+            logo: google-home.svg
+            
+          - name: Amazon Alexa
+            crunchbase: https://www.crunchbase.com/organization/amazon
+            description: |
+              Alexa Smart Home allows users to control a wide range of smart devices, appliances, and systems within their homes using voice commands.
+            homepage_url: https://www.amazon.com/alexa-smart-home
+            logo: 1024px-Amazon_Alexa_blue_logo.svg.png
+
+          - name: Hubitat
+            description: |
+              Experience home automation perfection with local processing, highly customizable automations, easy-to-use dashboards and wide-range compatibility!
+            homepage_url: https://hubitat.com/
+            logo: hubitat.png
+
+          - name: Bosch Smart Home
+            description: |
+              Learn how to make your home more comfortable, sustainable and safe with the intelligent technology of our Bosch Smart Home products.
+            homepage_url: https://www.bosch-smarthome.com/
+            logo: boschsmarthome.png
+
+          - name: Telekom Magenta SmartHome
+            homepage_url: https://www.telekom.de/smarte-produkte/smart-home
+            logo: magentasmarthome.png
+
+          - name: Homematic IP
+            description: | 
+              Homematic IP is a smart home system from the European market leader, offering a modern, flexible, and secure way to control your home. It utilizes the IPv6 internet protocol and communicates wirelessly on the 868 MHz frequency, avoiding interference with other wireless standards. The system can be installed by yourself or a specialist and offers features like comfort, savings, security, control, and more.
+            homepage_url: https://homematic-ip.com/
+            logo: homematic-ip-vector-logo.png
+
+  - name: Protocols
+    subcategories:
+      - name: Wireless
+        items:
+          - name: Zigbee
+            description: Zigbee is the only complete loT solution — from mesh network to the universal language that allows smart objects to work together.
+            homepage_url: https://csa-iot.org/all-solutions/zigbee/
+            logo: zigbee.png
+
+          - name: WiFi
+            description: |
+              Wi-Fi is a trademark of the Wi-Fi Alliance, which restricts the use of the term "Wi-Fi Certified" to products that successfully complete interoperability certification testing. Non-compliant hardware is simply referred to as WLAN, and it may or may not work with "Wi-Fi Certified" devices. 
+            homepage_url: https://www.wi-fi.org/
+            logo: WiFi_Logo.svg
+
+          - name: Zwave
+            description: |
+              Z-Wave is a wireless communications protocol used primarily for residential and commercial building automation. It is a mesh network using low-energy radio waves to communicate from device to device,[2] allowing for wireless control of smart home devices, such as smart lights, security systems, thermostats, sensors, smart door locks, and garage door openers.
+            homepage_url: https://z-wavealliance.org/
+            logo: Z-Wave_logo.svg
+
+          - name: Zwave LR
+            description: |
+              The Z-Wave Long Range (LR) specification was announced in September 2020, a new specification with up to four-times the wireless range of standard Z-Wave.
+            homepage_url: https://z-wavealliance.org/z-wave-long-range-technology/
+            logo: Z_Wave_LR.jpg
+
+          - name: LoRaWAN
+            description: |
+              LoRaWAN, standing for Long Range Wide Area Network, is a low-power, wide-area networking protocol designed for IoT devices, particularly those operating on batteries. It enables long-range communication (up to 15 kilometers, depending on the environment) with minimal energy consumption, making it ideal for applications where sensors need to transmit data over extended distances and for extended periods without frequent battery changes. 
+            homepage_url: https://lora-alliance.org/about-lorawan/
+            logo: LoRaWAN_Logo.svg
+
+          - name: MQTT
+            description: |
+              MQTT is an OASIS standard messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth. MQTT today is used in a wide variety of industries, such as automotive, manufacturing, telecommunications, oil and gas, etc.
+            homepage_url: https://mqtt.org/
+            logo: mqtt-ver.svg
+
+          - name: Bluetooth
+            description: |
+              Bluetooth is a short-range wireless technology standard that is used for exchanging data between fixed and mobile devices over short distances and building personal area networks (PANs).
+            homepage_url: https://www.bluetooth.com/
+            logo: Bluetooth.svg
+
+          - name: BTHome
+            description: |
+              BTHome is an open standard for broadcasting sensor data and button presses over Bluetooth LE. BTHome is an energy efficient but flexible BLE format for devices to broadcast their sensor data and button presses. Devices can run over a year on a single battery. It allows data encryption and is supported by popular home automation platforms, like Home Assistant, out of the box.
+            repo_url: https://github.com/Bluetooth-Devices/bthome-ble/
+            homepage_url: https://bthome.io/
+            logo: bthome.png
+            second_path:
+              - "Open Home Foundation Projects / Members"
+
+      - name: Wired
+        items:
+          - name: KNX
+            description: |
+              KNX is an open standard (see EN 50090, ISO/IEC 14543) for commercial and residential building automation. KNX devices can manage lighting, blinds and shutters, HVAC, security systems, energy management, audio video, domestic appliances, displays, remote control, etc. KNX evolved from three earlier standards; the European Home Systems Protocol (EHS), BatiBUS, and the European Installation Bus (EIB or Instabus).
+            homepage_url: https://www.knx.org/
+            logo: KNX_logo.svg
+
+  - name: Open Home Foundation Projects
+    subcategories:
+      - name: Members
+        items:
+          - name: ESPHome
+            description: ESPHome is an open-source firmware framework that simplifies the process of creating custom firmware for popular WiFi-enabled microcontrollers.
+            homepage_url: https://esphome.io/
+            logo: esphome.svg
+            repo_url: https://github.com/esphome/esphome
+
+
+          - name: MusicAssistant
+            description: |
+              Music Assistant is a music library manager for your offline and online music sources which can easily stream your favourite music to a wide range of supported players and be combined with the power of Home Assistant!
+            homepage_url: https://www.music-assistant.io/
+            logo: musicassistant.png
+            repo_url: https://github.com/music-assistant/server
+            branch: dev
+            additional_repos:
+              - repo_url: https://github.com/music-assistant/music-assistant.io
+              - repo_url: https://github.com/music-assistant/home-assistant-addon
+              - repo_url: https://github.com/music-assistant/frontend
+
+          - name: HACS
+            description: |
+              The Home Assistant Community Store (HACS) is a custom integration that provides a UI to manage custom elements in Home Assistant.
+            homepage_url: https://www.hacs.xyz/
+            logo: hacs_logo.png
+            repo_url: https://github.com/hacs/integration
+
+      - name: Collabs
+        items:
+          - name: WLED
+            description: |
+              A fast and feature-rich implementation of an ESP32/ESP8266 webserver to control NeoPixel (WS2812B, WS2811, SK6812) LEDs or also SPI based chipsets like the WS2801 and APA102!
+            homepage_url: https://kno.wled.ge/
+            logo: wled.svg
+            repo_url: https://github.com/WLED/WLED
+
+          - name: Zigbee2MQTT
+            description: Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges
+            homepage_url: https://www.zigbee2mqtt.io/
+            logo: zigbee2mqtt.svg
+            repo_url: https://github.com/Koenkk/zigbee2mqtt
+            branch: master
+            additional_repos:
+              - repo_url: https://github.com/Koenkk/zigbee2mqtt.io
+                branch: master
+
+        
+          - name: Z-Wave JS
+            description: |
+              The home for Z-Wave related libraries and apps based on Z-Wave JS
+              Built on Node.js and compatible with all known 500, 700 and 800 series Z-Wave controller hardware adapters, the Z-Wave JS driver runs on almost anything with a little bit of computing power and a serial port.
+
+              Started in 2018, Z-Wave JS has breathed new life into the Z-Wave ecosystem and now powers thousands of smart homes and some of the largest home automation systems all over the world.
+            homepage_url: https://zwave-js.github.io/zwave-js-ui/#/
+            logo: z-wave-js.png
+            repo_url: https://github.com/zwave-js/zwave-js-ui
+            branch: master
+            additional_repos:
+              - repo_url: https://github.com/zwave-js/zwave-js-server
+              - repo_url: https://github.com/zwave-js/zwave-js
+
+
+
+  - name: Works with Home Assistant
+    subcategories:
+      - name: Members
+        items:
+          - name: Aqara
+            homepage_url: https://www.aqara.com/
+            logo: aqara.png
+
+          - name: Apollo
+            description: |
+              Apollo is a local tech startup building advanced hardware and software in Lexington, KY. It is currently focused on developing products for the smart home market and has successfully launched four products since starting in September 2023. Its goal is to create high-tech jobs and innovative solutions in the Lexington area as it continues to grow.
+            homepage_url: https://apolloautomation.com
+            logo: apollo.png
+
+          - name: Helltun
+            homepage_url: https://www.heltun.com
+            logo: heltun.png
+
+          - name: HomeSeer
+            homepage_url: https://homeseer.com/
+            logo: homeseer.png
+
+          - name: homewizard
+            homepage_url: https://www.homewizard.com/
+            logo: homewizard.png
+
+          - name: Jasco
+            homepage_url: https://byjasco.com/
+            logo: jasco.png
+
+          - name: Leviton
+            homepage_url: https://leviton.com/
+            logo: leviton.png
+  
+          - name: Reolink
+            homepage_url: https://reolink.com/
+            logo: reolink.png
+
+          - name: ThirdReality
+            homepage_url: https://3reality.com/
+            logo: thirdreality.png
+
+          - name: Ultraloq
+            homepage_url: https://u-tec.com/
+            logo: ultraloq.png
+
+  - name: Professional Support
+    subcategories:
+      - name: Germany
+        items:
+          - name: SmartHuette
+            description: This is the description of item 6
+            homepage_url: https://smarthuette.de/
+            logo: cncf.svg
+            extra:
+              tag:
+                - europe
+
+          - name: homesmarthome
+            description: |
+              Sie würden gerne zu Ihrere Home Assistant Installation kompetent beraten werden und suchen Programmiere mit langjähriger Erfahrung im Bereich Hausautomation?
+            homepage_url: https://homesmarthome.eu/
+            logo: HomeSmartHomeEU2.png
+            extra:
+              tag:
+                - europe
+
+      - name: UK
+        items:
+          - name: Luxeia
+            description: |
+              Smart home & automation technology experts covering the UK
+            homepage_url: https://www.luxeia.co.uk/
+            logo: luxeia.png
+            extra:
+              tag:
+                - europe
+
+  - name: Hardware
+    subcategories:
+      - name: Home Assistant
+        items:
+          - name: Home Assistant Blue
+            description: This is a ODROID-N2+ 4GB Memory with a branded case and a 128GB eMMC.
+            homepage_url: https://www.home-assistant.io/blue/
+            logo: blue_zen_mode.png
+
+          - name: Home Assistant Green
+            description: The affordable Home Assistant Green is the easiest way you can start using Home Assistant. It's plug-and-play and comes with Home Assistant already installed.
+            homepage_url: https://www.home-assistant.io/green
+            logo: ha-green-photo-front.jpg
+
+          - name: Home Assistant Yellow
+            description: |
+              The foundation of your smart home needs to be local and private. Home Assistant Yellow is that foundation.
+              Home Assistant Yellow is Matter-ready, upgradable, and extendable. You won't need anything else.
+            homepage_url: https://www.home-assistant.io/yellow
+            logo: home-assistant-yellow-exploded-and-labeled.png
+
+          - name: Home Assistant Home Assistant Connect ZBT-1
+            description: |
+              Home Assistant Connect ZBT-1 (previously known as Home Assistant SkyConnect) is the easiest way to add Zigbee support to your Home Assistant instance.
+              Home Assistant Connect ZBT-1 can also be used to turn your Home Assistant installation into a Thread border router.
+            homepage_url: https://www.home-assistant.io/connectzbt1#from-skyconnect
+            logo: connectzbt1_isometric.png

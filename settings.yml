@@ -1,0 +1,74 @@
+# Landscape2 settings
+#
+# This settings file allows customizing some aspects of the landscape.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/settings.yml
+
+foundation: Smart Home
+
+url: http://127.0.0.1:8000
+
+colors:
+  color1: "rgba(0, 107, 204, 1)"
+  color2: "rgba(255, 0, 170, 1)"
+  color3: "rgba(96, 149, 214, 1)"
+  color4: "rgba(0, 42, 81, 0.7)"
+  color5: "rgba(1, 107, 204, 0.7)"
+  color6: "rgba(0, 42, 81, 0.7)"
+  color7: "rgba(180, 219, 255, 1)"
+
+featured_items:
+  - field: subcategory
+    options:
+      - value: Platinum
+      - value: Gold
+
+# footer:
+#   links:
+#     facebook: "https://www.facebook.com/CloudNativeComputingFoundation/"
+#     flickr: "https://www.flickr.com/photos/143247548@N03/albums"
+#     github: "https://github.com/cncf"
+#     homepage: "https://cncf.io"
+#     instagram: "https://www.instagram.com/humans.of.cloudnative/"
+#     linkedin: "https://www.linkedin.com/company/cloud-native-computing-foundation/"
+#     slack: "https://slack.cncf.io/"
+#     twitch: "https://www.twitch.tv/cloudnativefdn"
+#     twitter: "https://twitter.com/cloudnativefdn"
+#     wechat: "https://www.cncf.io/wechat/"
+#     youtube: "https://www.youtube.com/c/cloudnativefdn"
+#   logo: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/white/cncf-white.svg"
+
+grid_items_size: large
+
+groups:
+  - name: All
+    categories:
+      - Smart Home Platforms
+      - Protocols
+      - Works with Home Assistant
+      - Open Home Foundation Projects
+      - Professional Support
+  - name: Professional Support
+    categories:
+      - Professional Support
+      - Open Home Foundation Projects
+
+
+tags:
+  test:
+  europe:
+
+
+# header:
+#   links:
+#     github: "https://github.com/ajfriesen/smarthome-landscape"
+#   logo: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf-landscape/horizontal/color/cncf-landscape-horizontal-color.svg"
+
+screenshot_width: 1500
+
+upcoming_event:
+  name: "Home Assistant Community Day 2025"
+  start: "2025-05-24"
+  end: "2025-05-24"
+  banner_url: "https://drive.google.com/file/d/1i4gr0WaR9Nj0vzojcqxasXejFNiK6fVY/preview"
+  details_url: "https://www.home-assistant.io/blog/2025/04/24/community-day/"
