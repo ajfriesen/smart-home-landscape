@@ -10,7 +10,7 @@ categories:
       - name: Open Source
         items:
           - name: Home Assistant
-            description:  Open source home automation that puts local control and privacy first.
+            description: Open source home automation that puts local control and privacy first.
             homepage_url: https://www.home-assistant.io/
             logo: home-assistant.svg
             repo_url: https://github.com/home-assistant/core
@@ -28,7 +28,7 @@ categories:
               - "Open Home Foundation Projects / Members"
           - name: Nabu Casa
             crunchbase: https://www.crunchbase.com/organization/nabu-casa
-            description:  Open source home automation that puts local control and privacy first.
+            description: Open source home automation that puts local control and privacy first.
             homepage_url: https://www.nabucasa.com/
             logo: nabucasa.svg
             extra:
@@ -106,7 +106,7 @@ categories:
           - name: SmartThings
             crunchbase: https://www.crunchbase.com/organization/samsung-electronics
             description: |
-               new way to enjoy your home. With SmartThings, you can create an AI-powered home that makes life more comfortable for you and looks after your loved ones.
+              new way to enjoy your home. With SmartThings, you can create an AI-powered home that makes life more comfortable for you and looks after your loved ones.
             homepage_url: https://www.samsung.com/us/smartthings/
             logo: smartthings.jpeg
 
@@ -115,13 +115,13 @@ categories:
             description: German Smart Home System
             homepage_url: https://www.loxone.com/
             logo: Logo-Loxone-green-Web.png
-            
+
           - name: Google Home
             description: |
               Google Home is a smart home ecosystem that uses voice commands to control various smart devices and manage different aspects of daily life
             homepage_url: https://home.google.com
             logo: google-home.svg
-            
+
           - name: Amazon Alexa
             crunchbase: https://www.crunchbase.com/organization/amazon
             description: |
@@ -146,7 +146,7 @@ categories:
             logo: magentasmarthome.png
 
           - name: Homematic IP
-            description: | 
+            description: |
               Homematic IP is a smart home system from the European market leader, offering a modern, flexible, and secure way to control your home. It utilizes the IPv6 internet protocol and communicates wirelessly on the 868 MHz frequency, avoiding interference with other wireless standards. The system can be installed by yourself or a specialist and offers features like comfort, savings, security, control, and more.
             homepage_url: https://homematic-ip.com/
             logo: homematic-ip-vector-logo.png
@@ -162,7 +162,7 @@ categories:
 
           - name: WiFi
             description: |
-              Wi-Fi is a trademark of the Wi-Fi Alliance, which restricts the use of the term "Wi-Fi Certified" to products that successfully complete interoperability certification testing. Non-compliant hardware is simply referred to as WLAN, and it may or may not work with "Wi-Fi Certified" devices. 
+              Wi-Fi is a trademark of the Wi-Fi Alliance, which restricts the use of the term "Wi-Fi Certified" to products that successfully complete interoperability certification testing. Non-compliant hardware is simply referred to as WLAN, and it may or may not work with "Wi-Fi Certified" devices.
             homepage_url: https://www.wi-fi.org/
             logo: WiFi_Logo.svg
 
@@ -180,7 +180,7 @@ categories:
 
           - name: LoRaWAN
             description: |
-              LoRaWAN, standing for Long Range Wide Area Network, is a low-power, wide-area networking protocol designed for IoT devices, particularly those operating on batteries. It enables long-range communication (up to 15 kilometers, depending on the environment) with minimal energy consumption, making it ideal for applications where sensors need to transmit data over extended distances and for extended periods without frequent battery changes. 
+              LoRaWAN, standing for Long Range Wide Area Network, is a low-power, wide-area networking protocol designed for IoT devices, particularly those operating on batteries. It enables long-range communication (up to 15 kilometers, depending on the environment) with minimal energy consumption, making it ideal for applications where sensors need to transmit data over extended distances and for extended periods without frequent battery changes.
             homepage_url: https://lora-alliance.org/about-lorawan/
             logo: LoRaWAN_Logo.svg
 
@@ -223,7 +223,6 @@ categories:
             logo: esphome.svg
             repo_url: https://github.com/esphome/esphome
 
-
           - name: MusicAssistant
             description: |
               Music Assistant is a music library manager for your offline and online music sources which can easily stream your favourite music to a wide range of supported players and be combined with the power of Home Assistant!
@@ -262,7 +261,6 @@ categories:
               - repo_url: https://github.com/Koenkk/zigbee2mqtt.io
                 branch: master
 
-        
           - name: Z-Wave JS
             description: |
               The home for Z-Wave related libraries and apps based on Z-Wave JS
@@ -276,8 +274,6 @@ categories:
             additional_repos:
               - repo_url: https://github.com/zwave-js/zwave-js-server
               - repo_url: https://github.com/zwave-js/zwave-js
-
-
 
   - name: Works with Home Assistant
     subcategories:
@@ -312,7 +308,7 @@ categories:
           - name: Leviton
             homepage_url: https://leviton.com/
             logo: leviton.png
-  
+
           - name: Reolink
             homepage_url: https://reolink.com/
             logo: reolink.png
