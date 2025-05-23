@@ -295,9 +295,9 @@ categories:
               - repo_url: https://github.com/zwave-js/zwave-js-server
               - repo_url: https://github.com/zwave-js/zwave-js
 
-  - name: Works with Home Assistant
-    subcategories:
-      - name: Members
+
+
+      - name: Works with Home Assistant
         items:
           - name: Aqara
             homepage_url: https://www.aqara.com/
