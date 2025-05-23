@@ -227,7 +227,10 @@ categories:
         items:
           - name: Nabu Casa
             crunchbase: https://www.crunchbase.com/organization/nabu-casa
-            description:  Open source home automation that puts local control and privacy first.
+            description:  |
+              Get the best extras for Home Assistant while supporting its development.
+              Securely access Home Assistant anywhere, connect voice assistants, off site backups and much more.
+              Made by the team driving the development of Home Assistant.
             homepage_url: https://www.nabucasa.com/
             logo: nabucasa.svg
             extra:
