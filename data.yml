@@ -213,6 +213,13 @@ categories:
             homepage_url: http://csa-iot.org/
             logo: matter.svg
 
+          - name: Thread
+            description: |
+              Thread is an IPv6-based, low-power mesh networking technology for Internet of things (IoT) products.
+              Often used as a transport for Matter (the combination being known as Matter over Thread), the protocol has seen increased use for connecting low-power and battery-operated smart-home devices.
+            homepage_url: https://threadgroup.org/
+            logo: Thread.svg
+
       - name: Wired
         items:
           - name: KNX
