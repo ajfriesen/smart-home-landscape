@@ -205,6 +205,14 @@ categories:
             second_path:
               - "Open Home Foundation Projects / Members"
 
+          - name: Matter
+            description: |
+              One protocol to connect compatible devices and systems with one another. Smart home devices should be secure, reliable, and seamless to use. And with Matter, they are.
+            repo_url: https://github.com/project-chip/connectedhomeip
+            branch: master
+            homepage_url: http://csa-iot.org/
+            logo: matter.svg
+
       - name: Wired
         items:
           - name: KNX
