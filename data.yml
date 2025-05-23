@@ -25,7 +25,7 @@ categories:
               tag:
                 - home-assistant
             second_path:
-              - "Open Home Foundation Projects / Members"
+              - "Open Home Foundation / Members"
 
           - name: OpenHAB
             description: empowering the smart home a vendor and technology agnostic open source automation software for your home
@@ -195,7 +195,7 @@ categories:
             homepage_url: https://bthome.io/
             logo: bthome.png
             second_path:
-              - "Open Home Foundation Projects / Members"
+              - "Open Home Foundation / Members"
 
           - name: Matter
             description: |
@@ -220,7 +220,7 @@ categories:
             homepage_url: https://www.knx.org/
             logo: KNX_logo.svg
 
-  - name: Open Home Foundation Projects
+  - name: Open Home Foundation
     subcategories:
 
       - name: Partners
