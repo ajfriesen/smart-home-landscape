@@ -7,22 +7,24 @@
 categories:
   - category: "Hardware"
     content: |
-      asdf asdf asdf
+      Home Assistant has created some hardware products.
 
     subcategories:
       - subcategory: "Home Assistant"
         content: |
-          bla bla
+          All devices build on Home Assistant OS, which is a custom Linux distribution for embedded devices.
+          But also additional hardware products like Zigbee and Thread radios, and more.
 
-  - category: "Category 2"
+  - category: "Smart Home Platforms"
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      There are many smart home platforms available.
+      We can destinguish between open source and proprietary platforms.
 
     subcategories:
-      - subcategory: "Subcategory 2-1"
+      - subcategory: "Open Source"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Everything that is open source.
 
-      - subcategory: "Subcategory 2-2"
+      - subcategory: "Proprietary"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Closed source platforms.
