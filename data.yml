@@ -26,14 +26,6 @@ categories:
                 - home-assistant
             second_path:
               - "Open Home Foundation Projects / Members"
-          - name: Nabu Casa
-            crunchbase: https://www.crunchbase.com/organization/nabu-casa
-            description: Open source home automation that puts local control and privacy first.
-            homepage_url: https://www.nabucasa.com/
-            logo: nabucasa.svg
-            extra:
-              tag:
-                - home-assistant
 
           - name: OpenHAB
             description: empowering the smart home a vendor and technology agnostic open source automation software for your home
@@ -230,6 +222,19 @@ categories:
 
   - name: Open Home Foundation Projects
     subcategories:
+
+      - name: Partners
+        items:
+          - name: Nabu Casa
+            crunchbase: https://www.crunchbase.com/organization/nabu-casa
+            description:  Open source home automation that puts local control and privacy first.
+            homepage_url: https://www.nabucasa.com/
+            logo: nabucasa.svg
+            extra:
+              tag:
+                - home-assistant
+
+
       - name: Members
         items:
           - name: ESPHome
