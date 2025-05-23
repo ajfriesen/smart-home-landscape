@@ -4,27 +4,27 @@
 #
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/guide.yml
 
-categories:
-  - category: "Hardware"
-    content: |
-      Home Assistant has created some hardware products.
+# categories:
+#   - category: "Hardware"
+#     content: |
+#       Home Assistant has created some hardware products.
 
-    subcategories:
-      - subcategory: "Home Assistant"
-        content: |
-          All devices build on Home Assistant OS, which is a custom Linux distribution for embedded devices.
-          But also additional hardware products like Zigbee and Thread radios, and more.
+#     subcategories:
+#       - subcategory: "Home Assistant"
+#         content: |
+#           All devices build on Home Assistant OS, which is a custom Linux distribution for embedded devices.
+#           But also additional hardware products like Zigbee and Thread radios, and more.
 
-  - category: "Smart Home Platforms"
-    content: |
-      There are many smart home platforms available.
-      We can destinguish between open source and proprietary platforms.
+#   - category: "Smart Home Platforms"
+#     content: |
+#       There are many smart home platforms available.
+#       We can destinguish between open source and proprietary platforms.
 
-    subcategories:
-      - subcategory: "Open Source"
-        content: |
-          Everything that is open source.
+#     subcategories:
+#       - subcategory: "Open Source"
+#         content: |
+#           Everything that is open source.
 
-      - subcategory: "Proprietary"
-        content: |
-          Closed source platforms.
+#       - subcategory: "Proprietary"
+#         content: |
+#           Closed source platforms.
