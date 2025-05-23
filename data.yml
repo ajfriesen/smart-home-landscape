@@ -341,9 +341,9 @@ categories:
       - name: Germany
         items:
           - name: SmartHuette
-            description: This is the description of item 6
+            description: German smart home support and consulting for Home Assistant.
             homepage_url: https://smarthuette.de/
-            logo: cncf.svg
+            logo: smarthuette.png
             extra:
               tag:
                 - europe
